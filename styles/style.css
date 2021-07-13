@@ -1,0 +1,180 @@
+/*All Fonts import here*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/*common or utilitis styles here*/
+body{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+p {
+	font-weight: 300;
+}
+
+.containter {
+	margin: 0 auto;
+}
+
+button {
+	padding: 10px 24px;
+	background: #E02C6D;
+	color: #ffffff;
+	border: none;
+	position: relative;
+
+}
+
+
+/* Banner section styles starts here*/
+.banner_section {
+	background: #2D25A0;
+}
+.banners {
+	display: flex;
+	align-items: center;
+	padding-top: 135px;
+	padding-bottom: 86px;
+}
+.banner_section styles {
+	max-height: 100%;
+
+}
+
+.banner_heading {
+	width: 50%;
+	margin-left: 156px;
+}
+
+.heading_title h1{
+	font-size: 64px;
+	line-height: 80px;
+	color: #ffffff;
+}
+
+button {
+	padding: 10px 24px;
+	background: #E02C6D;
+	color: #ffffff;
+	border: none;
+	position: relative;
+
+}
+.heading_button button .fa-arrow-right {
+	margin-left: 8px;
+}
+.heading_button button:hover .fa-arrow-right {
+	position: absolute;
+
+}
+
+.banner_image {
+	width: 50%;
+}
+
+.banner_image img {
+	width: 100%;
+}
+
+/* Banner section styles ends Here*/
+
+/* Players section styles Starts here*/
+.players_section {
+	display: flex;
+	margin-top: 70px;
+	margin-bottom: 165px;
+}
+.players_main {
+	width: 1050px;
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+.players {
+	padding: 15px;
+	background: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px #252634;
+}
+.players:hover {
+	box-shadow: 3px 3px 3px #60646b;
+}
+
+.playes_image img {
+	max-width: 300px;
+}
+
+.players_details{
+	margin: 10px 0px;
+}
+.players_details h1 {
+	font-size: 28px;
+	line-height: 40px;
+	color: #18191F;
+}
+.players_details p {
+	font-size: 16px;
+	line-height: 26px;
+	color: #6C6C6C;
+}
+
+/* Highlights section styles starts here*/
+.highlights_section {
+
+}
+.highlights {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.highlights_details {
+	width: 469px;
+	margin-left: 182px;
+	margin-right: 33px;
+}
+.highlights_content h1 {
+	font-size: 48px;
+	line-height: 60px;
+}
+.highlights_content p {
+	font-size: 16px;
+	line-height: 28px;
+}
+.highlights_image {
+margin-left: 33px;
+margin-right: 156px;
+}
+.highlights_image img {
+	max-width: 567px;
+}
+/* Highlights section styles ends here*/
+
+/* Footer section styles starts here*/
+.footer {
+	margin-top: 158px;
+}
+.footer_content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footer_logo img {
+	max-width: 50%;
+	margin: 0 auto;
+	display: block;
+}
+.footer_social {
+	margin: 0 auto;
+}
+.footer_social .icon {
+	color: #969BAB;
+	padding: 0 10px;
+;
+}
+/* Footer section styles ends here*/
