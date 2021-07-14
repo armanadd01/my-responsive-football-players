@@ -163,6 +163,12 @@ button {
 	max-width: 567px;
 }
 /* Highlights section styles ends here*/
+/* About section styles ends here*/
+.about_section {
+	width: 70%;
+	margin-left: 0 auto;
+}
+
 
 /* Footer section styles starts here*/
 .footer {
