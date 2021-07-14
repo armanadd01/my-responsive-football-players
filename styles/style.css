@@ -56,20 +56,19 @@ button {
 	color: #ffffff;
 }
 
-button {
+.heading_button button {
 	padding: 10px 24px;
 	background: #E02C6D;
 	color: #ffffff;
 	border: none;
-	position: relative;
-
+	transition: transform 0.5s ease-in-out;
 }
+.heading_button button:hover {
+	transform: scale(1.2);
+}
+
 .heading_button button .fa-arrow-right {
 	margin-left: 8px;
-}
-.heading_button button:hover .fa-arrow-right {
-	position: absolute;
-
 }
 
 .banner_image {
@@ -78,6 +77,11 @@ button {
 
 .banner_image img {
 	width: 100%;
+	transition: transform 1s ease-in-out;
+}
+
+.banner_section:hover .banner_image img{
+	transform: scale(1.1);
 }
 
 /* Banner section styles ends Here*/
@@ -124,10 +128,9 @@ button {
 	color: #6C6C6C;
 }
 
-/* Highlights section styles starts here*/
-.highlights_section {
 
-}
+/* Highlights section styles starts here*/
+
 .highlights {
 	display: flex;
 	align-items: center;
@@ -187,7 +190,7 @@ margin-right: 156px;
 
 /*Responsive Media Query*/
 @media only screen and (max-width:991px) {
-	
+	/*Banner section tablet responsive */
 	.banner_heading {
 		margin-left: 100px;
 	}
@@ -197,7 +200,7 @@ margin-right: 156px;
 	    line-height: 65px;
 	}
 
-
+	/*Players section tablet responsive */
 	.players_main {
 		max-width: 960px;
 		grid-column-gap: 10px;
@@ -211,6 +214,7 @@ margin-right: 156px;
 		max-width: 100%;
 	}
 
+	/*Highlights section tablet responsive */
 	.highlights_details {
 		min-width: 40%;
 		margin-left: 78px;
@@ -229,7 +233,7 @@ margin-right: 156px;
 	}
 }
 @media only screen and (max-width:667px) {
-	
+	/*Banner section mobile responsive */
 	.banners {
 	    align-items: center;
 	    padding-top: 100px;
@@ -246,14 +250,14 @@ margin-right: 156px;
 	    margin-top: 50px;
 
 	}
-
+	/*Players section mobile responsive */
 	.players_main {
 	    width: 330px;
 	    grid-template-columns: repeat(1, 1fr);
 	    grid-row-gap: 10px;
 	    grid-column-gap: 10px;
 	}
-
+	/*Highlights section mobile responsive */
 	.highlights {
 	    flex-direction: column;
 	}	
@@ -264,8 +268,4 @@ margin-right: 156px;
 	.highlights_image img {
 	    max-width: 100%;
 	}
-}
-@media only screen and (max-width:444px) {
-
-
 }
